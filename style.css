@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 900px*/
+}
+div {
+    border: 1px solid black;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-width: 300px;
+    
+}
+
+
+.screens {
+    height: 150px;
+}
+
+.btnContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding: 5px;
+    
+    
+}
+
+.btns {
+    height: 3rem;
+    
+    
+}
+
+.btnEqual {
+    grid-column: span 2;
+    
+}
