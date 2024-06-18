@@ -11,30 +11,30 @@
 <body>
     <div class="calculator">
         <div class="screens">
-            <div class="history"></div>
-            <div class="opScreen"></div>
+            <div id="history"></div>
+            <div id="opScreen"></div>
             
         </div>
         <div class="btnContainer">
-            <div class="btns">delete</div>
-            <div class="btns">C</div>
-            <div class="btns">CA</div>
-            <div class="btns">%</div>
-            <div class="btns">7</div>
-            <div class="btns">8</div>
-            <div class="btns">9</div>
-            <div class="btns">X</div>
-            <div class="btns">4</div>
-            <div class="btns">5</div>
-            <div class="btns">6</div>
-            <div class="btns">-</div>
-            <div class="btns">1</div>
-            <div class="btns">2</div>
-            <div class="btns">3</div>
-            <div class="btns">+</div>
-            <div class="btns">0</div>
-            <div class="btns">.</div>
-            <div class="btns btnEqual">=</div>
+            <button onclick="deletes()" class="btns">delete</button>
+            <button onclick="clears()" class="btns">C</button>
+            <button onclick="clearAll()" class="btns">CA</button>
+            <button onclick="divide()" class="btns">%</button>
+            <button onclick="displayNumber(7)" class="btns">7</button>
+            <button onclick="displayNumber(8)" class="btns">8</button>
+            <button onclick="displayNumber(9)" class="btns">9</button>
+            <button onclick="multiply()" class="btns">x</button>
+            <button onclick="displayNumber(4)" class="btns">4</button>
+            <button onclick="displayNumber(5)" class="btns">5</button>
+            <button onclick="displayNumber(6)" class="btns">6</button>
+            <button onclick="subtract()" class="btns">-</button>
+            <button onclick="displayNumber(1)" class="btns">1</button>
+            <button onclick="displayNumber(2)" class="btns">2</button>
+            <button onclick="displayNumber(3)" class="btns">3</button>
+            <button onclick="add()" class="btns">+</button>
+            <button onclick="displayNumber(0)" class="btns">0</button>
+            <button onclick="displayNumber('.')" class="btns">.</button>
+            <button onclick="equal()" class="btns btnEqual">=</button>
         </div>
         
         

@@ -18,7 +18,7 @@ div {
 
 
 .screens {
-    height: 150px;
+    /*height: 150px;*/
 }
 
 .btnContainer {
@@ -39,4 +39,17 @@ div {
 .btnEqual {
     grid-column: span 2;
     
+}
+
+#opScreen {
+    font-size: 3em;
+    text-align: right;
+    height: 55px;
+    
+}
+
+#history {
+    text-align: right;
+    font-size: 1.3em;
+    height: 25px;
 }
